@@ -1,8 +1,9 @@
 version: '3'
 services:
   web:
+    container_name: dvorak
     build: .
     volumes:
       - ./:/src
     ports:
-      - "8080:8080"
+      - "0.0.0.0:8080:8080"
