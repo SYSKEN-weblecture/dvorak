@@ -1,2 +1,2 @@
 # dvorak
-goでやるhtmlをホスティングするserver
+ドボルザーク: goでやるhtmlをホスティングするserver
