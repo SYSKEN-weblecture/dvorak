@@ -7,7 +7,7 @@ import (
 
 func main() {
 	r := gin.Default()
-	r.LoadHTMLGlob("*.html")
+	r.LoadHTMLGlob("front/html/*.html")
 
 	r.GET("/", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "index.html", gin.H{})
